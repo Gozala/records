@@ -1,0 +1,42 @@
+{
+  "name": "records",
+  "id": "records",
+  "version": "0.0.1",
+  "description": "Models with pre-defined structure.",
+  "keywords": [ "model", "record", "mvc" ],
+  "author": "Irakli Gozalishvili <rfobic@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Gozala/records.git",
+    "web": "https://github.com/Gozala/records"
+  },
+  "bugs": {
+    "web": "http://github.com/Gozala/records/issues/"
+  },
+  "directories": {
+    "doc": "./docs",
+    "lib": "./lib",
+    "test": "./tests"
+  },
+  "devDependencies": {
+    "test": ">=0.0.10",
+    "guards": ">= 0.0.2"
+  },
+  "dependecies": {
+    "model": "0.0.1"
+  },
+  "main": "./lib/records.js",
+  "engines": {
+    "node": "0.4.x",
+    "teleport": ">=0.2.0"
+  },
+  "scripts": {
+    "test": "node tests/test-records.js"
+  },
+  "licenses": [
+    {
+      "type" : "MIT",
+      "url" : "http://jeditoolkit.com/LICENSE"
+    }
+  ]
+}
